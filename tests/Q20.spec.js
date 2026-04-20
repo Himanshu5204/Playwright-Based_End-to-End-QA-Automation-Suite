@@ -20,7 +20,7 @@ test('Q20: File Upload with Drag-and-Drop Simulation', async ({ page }) => {
     await page.screenshot({ path: 'screenshots/file_upload_preview.png' });
     await page.locator('#uploadedFilePath').screenshot({ path: 'screenshots/file_upload_preview.png' });
 
-    // Wait for the preview to appear
+    // Wait for the preview to appear 
     // await page.waitForSelector('#uploadedFile');
 
     // Take a screenshot of the preview
